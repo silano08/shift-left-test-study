@@ -1,4 +1,4 @@
-import { Random, Console } from "@woowacourse/mission-utils";
+import { Util } from "./utils/index.js";
 
 /**
  * validation
@@ -45,23 +45,27 @@ import { Random, Console } from "@woowacourse/mission-utils";
 
 class App {
   async play() {
-    Console.print("숫자 야구 게임을 시작합니다.");
-    Random.pickNumberInRange(1, 9); // 생성자 함수로 분리
-    Console.readLineAsync("숫자를 입력해주세요 : "); // input
-    Console.print(`${1}볼 ${1}스트라이크`); // output -> if n 스트라이크가 아니면 input 다시 실행
-    Console.readLineAsync(`${3}스트라이크`); // output -> 3스트라이크라면 output 실행
-    Console.print(`n개의 숫자를 모두 맞히셨습니다! 게임 종료`); // output -> if n 스트라이크가 아니면 input 다시 실행
-    Console.readLineAsync(
-      `게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요.\n`
-    );
-    // input = 1이면
-    Console.print("숫자 야구 게임을 시작합니다.");
-    Random.pickNumberInRange(1, 9); // 생성자 함수로 분리
-    // input = 2라면
-    Console.print("게임을 종료합니다.");
-    // input = 0, 3, ...n 및
-    // 숫자가 아닌 값이라면 종료 -> 숫자가 아닌 값을 검증하는 함수 분리 (validation)
-    Console.print("게임을 종료합니다.");
+    const a = await Util.readLine("gdgd");
+
+    console.log(a);
+
+    // Console.print("숫자 야구 게임을 시작합니다.");
+    // Random.pickNumberInRange(1, 9); // 생성자 함수로 분리
+    // Console.readLineAsync("숫자를 입력해주세요 : "); // input
+    // Console.print(`${1}볼 ${1}스트라이크`); // output -> if n 스트라이크가 아니면 input 다시 실행
+    // Console.readLineAsync(`${3}스트라이크`); // output -> 3스트라이크라면 output 실행
+    // Console.print(`n개의 숫자를 모두 맞히셨습니다! 게임 종료`); // output -> if n 스트라이크가 아니면 input 다시 실행
+    // Console.readLineAsync(
+    //   `게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요.\n`
+    // );
+    // // input = 1이면
+    // Console.print("숫자 야구 게임을 시작합니다.");
+    // Random.pickNumberInRange(1, 9); // 생성자 함수로 분리
+    // // input = 2라면
+    // Console.print("게임을 종료합니다.");
+    // // input = 0, 3, ...n 및
+    // // 숫자가 아닌 값이라면 종료 -> 숫자가 아닌 값을 검증하는 함수 분리 (validation)
+    // Console.print("게임을 종료합니다.");
   }
 }
 
