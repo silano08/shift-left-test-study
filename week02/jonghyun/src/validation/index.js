@@ -40,7 +40,6 @@ export class Validation {
     if (this.#isFalsyButNotZero(input)) return false;
 
     const set = new Set([...input]);
-    console.log(set);
     return set.size !== input.length;
   }
 
