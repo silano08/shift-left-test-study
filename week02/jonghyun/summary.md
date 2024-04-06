@@ -212,35 +212,8 @@ C(복잡도) = 프로그램의 경로 수 - 프로그램의 분기점 수 + 2
 >
 > (앞선 chapter에서 말한) 상태 전이 테스트 적용할 수 있을 거 같음
 
-<br/>
+- 숫자 야구에서 상태를 `start`, `playing`, `end`로 정의하고 세 개 상태를 `Context`에서 관리하면 좋을듯
 
-**문제점**
-
-```java
-//상태가 draft, moderation, published 세 개 있을 때의 코드
-
-class Document is
-    field state: string
-    // …
-    method publish() is
-        switch (state)
-            "draft":
-                state = "moderation"
-                break
-            "moderation":
-                if (currentUser.role == "admin")
-                    state = "published"
-                break
-            "published":
-                // Do nothing.
-                break
-    // …
-```
-
-- 위와 같이 만들다 보면 현재 상태에 따라 메서드의 적절한 행동을 선택하는 거대한 조건문들이 대부분의 메서드에 포함될 것
-
-<br/>
-
-**해결 방법**
-
-객체의 모든 가능한 상태들에 대해 새 클래스들을 만들고 모든 상태별 행동들을 이러한 클래스들로 추출할 것을 제안
+- 상태 패턴에서의 특정 상태들은 서로를 인식하고 한 상태에서 다른 상태로 전이를 시작할 수 있지만 전략들은 거의 대부분 서로에 대해 알지 못함
+  - 잘 모르겠는 점 : 전략패턴과 다르게 상태는 의존관계를 제한하지 않고 콘텍스트의 상태를 마음대로 변경할 수 있도록 하는데, 그렇다면 상태들 사이에서 의존관계가 발생해 안 좋은 것이 아닌가?
+  - 실제로 적용해보고 확인해봐야 할듯..
