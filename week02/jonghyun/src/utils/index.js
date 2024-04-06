@@ -13,9 +13,7 @@ export class Util {
     Console.print(message);
   }
 
-  static readLine(message) {
-    return Console.readLineAsync(message);
-  }
+  static readLine = async (message) => Console.readLineAsync(message);
 
   static pickNumberInRange(min, max) {
     return Random.pickNumberInRange(min, max);

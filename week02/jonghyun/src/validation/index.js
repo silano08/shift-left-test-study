@@ -21,7 +21,7 @@ export class Validation {
   isPositiveInteger(input) {
     const regex = /^\d+$/;
 
-    if (input === "0") return false;
+    if (input.includes("0")) return false;
 
     return regex.test(input);
   }
