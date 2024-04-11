@@ -1,0 +1,6 @@
+1. 입출금 프로젝트 작성하고 테스트코드 짜기
+2. 의사 결정 테이블 테스트 작성해보기(출처: https://brunch.co.kr/@jiwonleeqa/221)
+3. 챕터 7~9 정리해오기
+
+입출금
+- 조건 : https://github.com/silano08/synchronize-user-balance
