@@ -46,3 +46,6 @@
 - CHAPTER 13 애자일 및 시프트-레프트 지표
 - CHAPTER 14 애자일에서의 요구사항 사양
 - CHAPTER 15 개발자 테스트의 실제 샘플
+
+
+PS) 기존에 진행했던 과제들은 git issue에서 확인하시면 됩니다. -> [제출한 과제들](https://github.com/silano08/shift-left-test-study/issues)
