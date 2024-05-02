@@ -7,7 +7,8 @@
 
 ## 1주차
 
-#### [1주차 과제](https://github.com/silano08/shift-left-test-study/commits/main/week01/rule)
+#### [1주차 과제](https://github.com/silano08/shift-left-test-study/blob/main/week01/rule)
+
 
 - CHAPTER 1 테스트 시작하기
 - CHAPTER 2 시프트-레프트 테스트
@@ -16,7 +17,7 @@
 
 ## 2주차
 
-#### [2주차 과제](https://github.com/silano08/shift-left-test-study/commits/main/week02/rule)
+#### [2주차 과제](https://github.com/silano08/shift-left-test-study/blob/main/week02/rule.txt)
 
 - CHAPTER 4 코드 기반 단위 테스트
 - CHAPTER 5 단위 테스트 효율화: 쉬운 단위 테스트
@@ -24,7 +25,7 @@
 
 ## 3주차
 
-#### [3주차 과제](https://github.com/silano08/shift-left-test-study/commits/main/week03/rule)
+#### [3주차 과제](https://github.com/silano08/shift-left-test-study/blob/main/week03/rule.txt)
 
 - CHAPTER 7 리팩터링
 - CHAPTER 8 코드 리뷰
@@ -32,7 +33,7 @@
 
 ## 4주차
 
-#### [4주차 과제](https://github.com/silano08/shift-left-test-study/commits/main/week04/rule)
+#### [4주차 과제](https://github.com/silano08/shift-left-test-study/blob/main/week04/rule.txt)
 
 - CHAPTER 10 시스템 테스트의 자동화 
 - CHAPTER 11 탐색적 테스트
@@ -40,7 +41,7 @@
 
 ## 5주차
 
-#### [5주차 과제](https://github.com/silano08/shift-left-test-study/commits/main/week05/rule)
+#### [5주차 과제](https://github.com/silano08/shift-left-test-study/blob/main/week05/rule.txt)
 
 - CHAPTER 13 애자일 및 시프트-레프트 지표
 - CHAPTER 14 애자일에서의 요구사항 사양
